@@ -17,8 +17,8 @@
 <spring:url var="loginUrl" value="/login"/>
 
 <form action="${loginUrl}" method="post">
-	UserName : <input type="text" name="username" placeholder="UserName" value="admin"> <br>
-	Password : <input type="password" name="password" placeholder="Password" value="test123"><br>
+	UserName : <input type="text" name="username" value="admin"> <br>
+	Password : <input type="password" name="password"  value="test123"><br>
 <input type="submit" value="Login">
 
 <c:if test="${not empty error}">
